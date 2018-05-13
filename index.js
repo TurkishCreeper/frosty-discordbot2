@@ -30,7 +30,7 @@ fs.readdir("./commandos/", (err, files) => {
 bot.on('ready', () => {
     console.log(`Logged in as ${bot.user.tag}!`);
 
-    bot.user.setActivity(`to everything | f>help`, {type: "listening"});
+    //bot.user.setActivity(`to everything | f>help`, {type: "listening"});
   });
 
 
